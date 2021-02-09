@@ -1,0 +1,113 @@
+  @import url(https://allfont.ru/allfont.css?fonts=cyrillicgoth-medium);
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+
+
+
+header{
+	background-image: url('../img/01abstract_pattern_5_01.png');
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 70px;
+	Background-attachment: fixed;
+}
+header>span{
+	text-shadow: 5px 5px 3px blue;
+	color: blue;
+}
+div.sah{
+	width: 650px;
+	height: 650px;
+	background-image:url('../img/peska1.png'),url('../img/peska1.png') ,url(../img/tura1.png),url('../img/losadi1.png'),url('../img/ferzi1.png'),url('../img/karoli1.png'),url('../img/dama1.png') ,url('../img/ferzi1.png'),url('../img/losadi1.png'),url('../img/tura1.png') ,url('../img/peska.png'),url('../img/tura.png'),url('../img/losadi.png'),url('../img/ferzi.png'), url('../img/koroli.png'), url('../img/dama.png'), url('../img/ferzi.png'), url('../img/losadi.png'),url('../img/tura.png'), url('../img/Снимок\ экрана\ 2021-02-09\ в\ 12.49.58\ PM.png');
+	background-repeat:no-repeat, no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat,no-repeat, no-repeat ,no-repeat ,repeat-x ,no-repeat,no-repeat ,no-repeat , no-repeat ,no-repeat, no-repeat, no-repeat, no-repeat, repeat;
+	background-position: 80px 400px,0px 490px,right bottom,480px bottom,420px bottom,330px bottom ,240px bottom, 175px bottom,80px bottom,6px bottom,0px 100px,right 5px,495px 5px ,415px 7px, 335px 5px,245px 5px, 170px 5px, 90px 5px, 3px 5px, 0px 0px;
+display: inline-block;
+}
+
+div.text{
+	width: 750px;
+	height: 1000px;
+	background-color: rgb(199, 212, 195);
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 10%;
+	padding: 30px;
+	background-image: url('../img/Check_mark.svg.png') ;
+background-repeat: repeat-y;
+font-family:  'CyrillicGoth Medium';
+letter-spacing: 2px;
+Outline: 1px solid rgb(168, 168, 185); 
+background-size: 200px;
+
+
+}
+
+li{
+padding: 35px 0px 50px 150px;
+font-size: 30px;
+}
+a.button{
+	width: 500px;
+	height: 200px;
+	background-color: rgb(172, 223, 219);
+	border-radius: 20px;
+	margin-top: -300px;
+	display: block;
+	font-size: 30px;
+	padding: 60px;
+	text-align: center;
+	color: brown;
+}
+footer{
+	width: 100%;
+	height: 300px;
+	background-color: rgb(53, 58, 55);
+	margin-top: 300px;
+	color: white;
+	font-size: 30px;
+	padding: 100px;
+	text-align: center;
+}
+
+p>span{
+	font-size: 80px;
+	text-shadow: 2px 3px 5px red;
+
+}
